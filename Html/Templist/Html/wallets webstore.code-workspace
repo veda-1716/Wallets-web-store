@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"phpserver.relativePath": "/Users/vimalmadishetty/Downloads/themeforest-mzuKAcUj-templist-html5-digital-marketplace-template",
+		"phpserver.phpPath": "/opt/homebrew/etc/php"
+	}
+}
