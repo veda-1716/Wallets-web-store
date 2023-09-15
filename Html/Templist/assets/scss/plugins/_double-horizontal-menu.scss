@@ -1,0 +1,167 @@
+.second-horizontal-tabs {
+  background: #f4f4fb;
+
+  .horizontalMenu > .horizontalMenu-list > li {
+    font-size: 13px;
+    padding: 5px 0;
+
+    > {
+      ul.sub-menu {
+        top: 95px;
+        padding: 10px;
+      }
+
+      .horizontal-megamenu {
+        top: 95px;
+      }
+
+      ul.sub-menu > li > a {
+        line-height: 10px;
+        padding-block-end: 4px;
+	padding-inline-end: 0px;
+	padding-inline-start: 4px;
+    	padding-block-start: 25px;
+        font-size: 13px;
+      }
+
+      .horizontal-megamenu {
+        .megamenu-content {
+          padding: 10px;
+        }
+
+        .link-list li a {
+          font-size: 13px;
+        }
+      }
+
+      ul.sub-menu > li > ul.sub-menu {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.horizontalMenu > .horizontalMenu-list > li > ul.sub-menu > li > ul.sub-menu > li > a {
+  line-height: 32px;
+  padding: 2px 20px;;
+  font-size: 13px;
+}
+
+.first-horizontal-tabs {
+  .resp-tabs-list.hor_1 li {
+    padding: 15px 25px 15px 25px !important;
+    position: relative;
+  }
+
+  .hor-sub-menu {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .resp-tab-active.active {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  li {
+    &.active, &:hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .resp-tabs-list.hor_1 li.resp-tab-active {
+    &:before, &:after {
+      top: 100%;
+      inset-inline-start: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    &:before {
+      border-width: 6px;
+      margin-inline-start: -6px;
+    }
+
+    &:after {
+      border-width: 5px;
+      margin-inline-start: -5px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .sticky-wrapper.is-sticky .horizontal-main {
+    padding: 0 !important;
+  }
+
+  .bg-background2 .header-text.double-hor-headertext {
+    top: 95px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .active {
+    .second-horizontal-tabs .horizontalMenu {
+      top: 0px;
+
+      .horizontalMenu-list {
+        border-block-start: 1px solid $border;
+      }
+    }
+
+    .first-horizontal-tabs .horizontalMenu {
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+      visibility: visible;
+      z-index: 1000;
+      top: 0;
+      max-height: 100px;
+      overflow-x: auto;
+
+      .resp-tabs-list {
+        li {
+          display: block;
+          float: inherit;
+          padding: 15px !important;
+        }
+
+        height: auto;
+        min-height: 100%;
+        width: 240px;
+        transition: all 0.25s ease-in-out;
+        margin-inline-start: 0;
+        display: block;
+      }
+    }
+  }
+
+  .second-horizontal-tabs .horizontalMenu > .horizontalMenu-list > li > {
+    ul.sub-menu, .horizontal-megamenu {
+      top: 0px;
+    }
+  }
+
+  .first-horizontal-tabs {
+    .resp-tab-active.active {
+      background: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    li {
+      &.resp-tab-active, &:hover {
+        background: rgba(0, 0, 0, 0.05) !important;
+      }
+    }
+  }
+
+  .second-horizontal-tabs .horizontalMenu > .horizontalMenu-list > li {
+    padding: 0;
+
+    > a {
+      font-size: 13px;
+    }
+  }
+}

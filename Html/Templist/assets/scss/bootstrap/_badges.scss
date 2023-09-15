@@ -1,0 +1,343 @@
+/*--  Badges --*/
+
+.btn .badge {
+	position: relative;
+	top: -1px;
+}
+
+.bg-success {
+	color: $white;
+	background-color: $success;
+	box-shadow: 0 5px 10px rgba(1, 210, 119, 0.1);
+	&[href] {
+		&:focus,
+		&:hover {
+			color: $white;
+			text-decoration: none;
+			background-color: #03ca73;
+		}
+	}
+}
+
+.bg-info {
+	color: $white;
+	background-color: $info;
+	box-shadow: 0 5px 10px rgba(11, 148, 247, 0.1);
+	&[href] {
+		&:focus,
+		&:hover {
+			color: $white;
+			text-decoration: none;
+			background-color: #1594ef;
+		}
+	}
+}
+
+.bg-warning {
+	color: $white;
+	background-color: $yellow;
+	box-shadow: 0 5px 10px rgba(255, 162, 43, 0.1);
+	&[href] {
+		&:focus,
+		&:hover {
+			color: $white;
+			text-decoration: none;
+			background-color: #f59713;
+		}
+	}
+}
+
+.bg-danger {
+	color: $white;
+	background-color: $danger;
+	box-shadow: 0 5px 10px rgba(248, 66, 66, 0.1);
+	&[href] {
+		&:focus,
+		&:hover {
+			color: $white;
+			text-decoration: none;
+			background-color: #f34a4a;
+		}
+	}
+}
+
+.bg-light {
+	color: #3d4e67;
+	background-color: #eaeaf5;
+	&[href] {
+		&:focus,
+		&:hover {
+			color: #3d4e67;
+			text-decoration: none;
+			background-color: #e8e9f3;
+		}
+	}
+}
+
+.bg-dark {
+	color: $white;
+	background-color: $dark;
+	&[href] {
+		&:focus,
+		&:hover {
+			color: $white;
+			text-decoration: none;
+			background-color: #1d2124;
+		}
+	}
+}
+
+.bg-pink {
+	color: $white;
+	background-color: #ed3284;
+	&[href] {
+		&:focus,
+		&:hover {
+			color: $white;
+			text-decoration: none;
+			background-color: #ed3284;
+		}
+	}
+}
+
+.badge {
+	display: inline-block;
+	padding: 4px 5px 3px;
+	font-size: 75%;
+	font-weight: 500;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 3px;
+	line-height: 1.1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+}
+
+.bg-pill {
+	padding-inline-end: .6em;
+	padding-inline-start: .6em;
+	border-radius: 10rem;
+}
+
+.badgetext {
+	float: $float-right;
+}
+
+.bg-default {
+	color: #6d7688;
+	background-color: #eeeff9;
+	box-shadow: 0 5px 10px rgba(238, 239, 249, 0.1);
+}
+
+
+/*--Badge Styles--*/
+
+.bg-offer {
+	position: absolute;
+	top: 0;
+	inset-inline-start: 15px;
+	z-index: 2;
+	padding: 5px;
+	font-weight: 400;
+	text-align: center;
+	color: $white;
+	font-size: 16px;
+	height: 33px;
+	width: 50px;
+	margin-block-end: 0;
+	&.bg-danger:after {
+		border-block-start: 12px solid $danger;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-primary:after {
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-secondary:after {
+		border-block-start: 12px solid #f6f7fb;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-success:after {
+		border-block-start: 12px solid $success;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-info:after {
+		border-block-start: 12px solid $info;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-warning:after {
+		border-block-start: 12px solid $yellow;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-purple:after {
+		border-block-start: 12px solid #6d33ff;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-pink:after {
+		border-block-start: 12px solid #f5127b;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+}
+
+.bg-offer1 {
+	position: absolute;
+	top: 0;
+	 inset-inline-end: 15px;
+	z-index: 2;
+	padding: 5px;
+	font-weight: 400;
+	text-align: center;
+	color: $white;
+	font-size: 16px;
+	height: 33px;
+	width: 50px;
+	margin-block-end: 0;
+	&.bg-danger:after {
+		border-block-start: 12px solid $danger;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-primary:after {
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-secondary:after {
+		border-block-start: 12px solid #f6f7fb;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-success:after {
+		border-block-start: 12px solid $success;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-info:after {
+		border-block-start: 12px solid $info;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-warning:after {
+		border-block-start: 12px solid $yellow;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-purple:after {
+		border-block-start: 12px solid #6d33ff;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-pink:after {
+		border-block-start: 12px solid #f5127b;
+		border-inline-start: 25px solid transparent;
+		border-inline-end: 25px solid transparent;
+		content: "";
+		height: 0;
+		inset-inline-start: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+}
+
+
+/*--  Badges --*/

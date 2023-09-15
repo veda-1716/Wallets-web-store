@@ -1,0 +1,236 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project        :   Templist - HTML5 Premium Digital goods marketplace directory jquery css responsive website Template
+Version        :   V.1
+Create Date    :   28/02/20
+Copyright      :   Spruko Technologies Private Limited 
+Author         :   SprukoSoft
+Author URL     :   https://themeforest.net/user/sprukosoft
+Support		   :   support@spruko.com
+License        :   Licensed under ThemeForest License
+
+-------------------------------------------------------------------*/
+
+ 
+@import "variables";
+
+
+/* ------ Table Of Contents 
+
+1.bootstrap-styles
+2.accordion
+3.alerts
+4.avatars
+5.adges
+6.breadcrumb
+7.buttons
+8.card-styles
+9.carousel
+10.dropdown-styles
+11.grid
+12.input-group
+13.modal
+14.nav-styles
+15.pagination
+16.panels
+17.popover
+18.progress
+19.table
+20.tags
+21.thumbnails
+22.tooltip
+23.components-cols
+24.count-down
+25.custom-styles
+26.gallery
+27.IE-styles
+28.labels
+29.list-styles
+30.media
+31.pricing-styles
+32.ratings
+33.tabs
+34.timeline
+35.flags
+36.color
+37.footers
+38.headers
+39.dark-style
+40.horizontal-menu
+41.rtl
+42.icons
+43.item-styles
+44.loaders
+45.skin-modes
+46.sidebar
+47.calendar
+48.custom-control
+49.custom-range
+50.custom-switch
+51.date-picker
+52.form-elements
+53.jvector
+54.rangeslider
+55.select2-styles
+56.select-group
+57.selectize
+58.boot-slider
+59.countdown
+60.double-horizontal-menu
+61.fancy_fileupload
+62.flipclock
+63.gallery
+64.image-tooltip
+65.jquery-ui
+66.jquery.autocomplete
+67.jquerysctipttop
+68.menu-responsive-tabs
+69.jquerysctipttop
+70.nice-select
+71.owl.carousel
+72.perfect-scrollbar
+73.star-rating-svg
+74.pscrollbar
+75.RV-gallery
+76.select2.min
+77.chart
+78.error-pages
+79.mail
+80.maps
+81.ribbons
+82.widgets
+83.alignment
+84.background
+85.border
+86.display
+87.float
+88.height
+89.margin
+90.padding
+91.position
+92.typography
+93.width
+	
+ ------ */
+ 
+
+
+@import "custom/fonts/fonts";
+
+
+
+/* ###### bootstrap ####### */
+
+@import "bootstrap/bootstrap-styles";
+@import "bootstrap/accordion";
+@import "bootstrap/alerts";
+@import "bootstrap/avatars";
+@import "bootstrap/badges";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/buttons";
+@import "bootstrap/card-styles";
+@import "bootstrap/carousel";
+@import "bootstrap/dropdown-styles";
+@import "bootstrap/grid";
+@import "bootstrap/input-group";
+@import "bootstrap/modal";
+@import "bootstrap/nav-styles";
+@import "bootstrap/pagination";
+@import "bootstrap/panels";
+@import "bootstrap/popover";
+@import "bootstrap/progress";
+@import "bootstrap/table";
+@import "bootstrap/tags";
+@import "bootstrap/thumbnails";
+@import "bootstrap/tooltip";
+
+/* ###### custom ####### */
+
+@import "custom/components-cols";
+@import "custom/count-down";
+@import "custom/custom-styles";
+@import "custom/gallery";
+@import "custom/IE-styles";
+@import "custom/labels";
+@import "custom/list-styles";
+@import "custom/media";
+@import "custom/pricing-styles";
+@import "custom/ratings";
+@import "custom/tabs";
+@import "custom/timeline";
+
+/* ###### layout ####### */
+
+@import "layout/flags";
+@import "layout/color";
+@import "layout/footers";
+@import "layout/headers";
+@import "layout/dark-style";
+// @import "layout/horizontal-1";
+@import "layout/horizontal-menu";
+@import "layout/rtl";
+@import "layout/icons";
+@import "layout/item-styles";
+@import "layout/loaders";
+@import "layout/skin-modes";
+@import "layout/sidebar";
+
+/* ###### lib ####### */
+
+@import "lib/calendar";
+@import "lib/custom-control";
+@import "lib/custom-range";
+@import "lib/custom-switch";
+@import "lib/date-picker";
+@import "lib/form-elements";
+@import "lib/jvector";
+@import "lib/rangeslider";
+@import "lib/select2-styles";
+@import "lib/select-group";
+@import "lib/selectize";
+
+/* ###### Plugins ####### */
+
+@import "plugins/boot-slider";
+@import "plugins/countdown";
+@import "plugins/double-horizontal-menu";
+@import "plugins/fancy_fileupload";
+@import "plugins/flipclock";
+@import "plugins/gallery";
+@import "plugins/image-tooltip";
+@import "plugins/jquery-ui";
+@import "plugins/jquery.autocomplete";
+@import "plugins/jquerysctipttop";
+@import "plugins/menu-responsive-tabs";
+@import "plugins/jquerysctipttop";
+@import "plugins/nice-select";
+@import "plugins/owl.carousel";
+@import "plugins/perfect-scrollbar";
+@import "plugins/star-rating-svg";
+@import "plugins/pscrollbar";
+@import "plugins/RV-gallery";
+@import "plugins/select2.min";
+
+/* ###### template ####### */
+
+@import "template/chart";
+@import "template/error-pages";
+@import "template/mail";
+@import "template/maps";
+@import "template/ribbons";
+@import "template/widgets";
+
+/* ###### util ####### */
+
+@import "util/alignment";
+@import "util/background";
+@import "util/border";
+@import "util/display";
+@import "util/float";
+@import "util/height";
+@import "util/margin";
+@import "util/padding";
+@import "util/position";
+@import "util/typography";
+@import "util/width";

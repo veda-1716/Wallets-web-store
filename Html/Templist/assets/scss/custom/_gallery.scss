@@ -1,0 +1,116 @@
+/*--Gallery--*/
+
+.img-avatar {
+	height: 37px;
+	border-radius: 4px;
+	width: 37px;
+}
+.carousel-inner>.item> {
+	a>img,
+	img {
+		width: 100%;
+	}
+}
+
+.gallery {
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	.content,
+	.mask {
+		position: absolute;
+		width: 100%;
+		overflow: hidden;
+		top: 0;
+		inset-inline-start: 0;
+	}
+	img {
+		display: block;
+		position: relative;
+	}
+	.tools {
+		text-transform: uppercase;
+		color: $white;
+		text-align: center;
+		position: relative;
+		font-size: 17px;
+		padding: 3px;
+		background: rgba(0, 0, 0, 0.35);
+		margin: 43px 0 0 0;
+	}
+}
+
+.mask.no-caption .tools {
+	margin: 90px 0 0 0;
+}
+
+.gallery {
+	.tools a {
+		display: inline-block;
+		color: $white;
+		font-size: 18px;
+		font-weight: 400;
+		padding: 0 4px;
+	}
+	p {
+		font-family: 'Roboto', sans-serif;
+		font-style: italic;
+		font-size: 12px;
+		position: relative;
+		color: $white;
+		padding: 10px 20px 20px;
+		text-align: center;
+	}
+	a.info {
+		display: inline-block;
+		text-decoration: none;
+		padding: 7px 14px;
+		background: $black;
+		color: $white;
+		text-transform: uppercase;
+		box-shadow: 0 0 1px $black;
+	}
+}
+
+.gallery-first {
+	img {
+		transition: all .2s linear;
+	}
+	.mask {
+		opacity: 0;
+		background-color: $black-5;
+		transition: all .4s ease-in-out;
+	}
+	.tools {
+		transform: translateY(-100px);
+		opacity: 0;
+		transition: all .2s ease-in-out;
+	}
+	p {
+		transform: translateY(100px);
+		opacity: 0;
+		transition: all .2s linear;
+	}
+	&:hover {
+		img {
+			transform: scale(1.1);
+		}
+		.mask {
+			opacity: 1;
+		}
+		.tools {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		p {
+			opacity: 1;
+			transform: translateY(0);
+			transition-delay: .1s;
+		}
+	}
+}
+
+
+/*--Gallery--*/

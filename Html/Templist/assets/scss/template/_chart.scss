@@ -1,0 +1,27 @@
+
+.dropshadow {
+	-webkit-filter: drop-shadow(0 -6px 4px rgb(227, 232, 239));
+	filter: drop-shadow(0 -6px 4px rgb(227, 232, 239));
+}
+
+.amcharts-chart-div a,
+.canvasjs-chart-container a {
+	display: none !important;
+}
+
+.rotation {
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+
+.amChartsLegend.amcharts-legend-div {
+	display: none;
+}

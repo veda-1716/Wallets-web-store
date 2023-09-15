@@ -1,0 +1,77 @@
+
+Project Name:  Templist - Responsive Classified Ads Bootstrap 5 HTML 5 Listing Template.
+
+Version : V.6
+
+Updated-date:  13-01-2023 
+
+ 
+Updates :- 
+                1) Converted from Boostrap-4 version to Boostrap-5 Version.
+		2) Converted Plugins css into scss.
+		3) Added New Switcher Page. 
+		4) Updated Documentation and Gulp File.
+
+***********************************************************************************************************************************************************************************************
+
+----------------------------------------------------------------------
+1) Converted from Boostrap-4 version to Boostrap-5 Version.
+----------------------------------------------------------------------
+	Please update bootstrap folder in Plugins (Root-path:-assets/plugins/bootstrap )
+
+----------------------------------------------------------------------
+2) Converted Plugins css into scss.
+----------------------------------------------------------------------
+	complete plugins css files are converted into scss .so ,please update complete assets folder 
+		
+----------------------------------------------------------------------
+3) Updated Switcher
+----------------------------------------------------------------------
+	New switcher styles are added like changing color's ,background color, single rtl, Light Theme and Dark Theme.
+
+---------------------------------------
+4) Updated Documentation and Gulp File.
+---------------------------------------
+
+	-> Documentation is updated
+
+	-> Gulp file is updates. so, replace gulp file.
+
+
+Thanking you,
+@spruko.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
