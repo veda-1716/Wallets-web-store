@@ -104,7 +104,7 @@
 									<input type="text" class="form-control" id="text" placeholder="What are you looking for?">
 								</div>
 								<div class="form-group">
-									<select name="country" id="select-countries" class="form-control form-select select2-show-search">
+									<select name="country" id="select-countries" class="form-control form-select select2-show-search" title="Select a country">
 										<option value="1" selected="">All Categories</option>
 										<option value="2">HTML</option>
 										<option value="3">Wordpress</option>
@@ -248,7 +248,17 @@
 										<div class="form-group mb-0">
 											<label class="form-label">Upload Image</label>
 											<div class="custom-file">
-												<input type="file" class="custom-file-input" name="example-file-input-custom">
+												<div class="col-md-12">
+													<div class="form-group mb-0">
+														<label class="form-label" for="customFileInput">Upload Image</label>
+														<div class="custom-file">
+															<input type="file" class="custom-file-input" name="example-file-input-custom" id="customFileInput" aria-describedby="customFileInputDescription">
+															<label class="custom-file-label" for="customFileInput" data-browse="Browse">Choose file</label>
+														</div>
+														<small id="customFileInputDescription" class="form-text text-muted">Please choose an image file to upload.</small>
+														<small id="customFileInputDescription" class="form-text text-muted">Please choose an image file to upload.</small>
+													</div>
+												</div>
 												<label class="custom-file-label">Choose file</label>
 											</div>
 										</div>
